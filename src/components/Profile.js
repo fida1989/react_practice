@@ -1,6 +1,6 @@
 function Profile(props) {
-    console.log(props)
-    return <h1>Name: {props.name} {props.last}</h1>
+    const { name, last } = props;
+    return <h1>Name: {name} {last}</h1>
 }
 
 export default Profile;
